@@ -1,0 +1,13 @@
+<ActionBar title="Your Journal"></ActionBar>
+
+<FlexboxLayout>
+    <StackLayout class="form">
+        <Image src="https://www.journal.rw/wp-content/uploads/2016/04/Journal-logo.png"></Image>
+        <TextField hint="Email Address" keyboardType="Email"
+            autocorrect="false" autocapitalizationType="none" [text]="email" class="input input-border"></TextField>
+        <TextField hint="Password" secure="true" class="input input-border"></TextField>
+ 
+        <Button text="Sign in" class="btn btn-primary" (tap)="submit()"></Button>
+        <Button text="Sign up for Groceries"></Button>
+    </StackLayout>
+</FlexboxLayout>
